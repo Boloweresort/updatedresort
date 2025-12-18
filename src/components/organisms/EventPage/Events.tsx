@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import weddingNew from '../../../assets/images/wedding_new.jpeg';
 import events  from '../../../Data/EventAndMeetings';
 import Carousell from '../Carousell';
-import './Events.css';
+import './events.css';
 import Anniverary from "../../../assets/images/anniversary.jpeg";
 //import Event3 from "../../../assets/images/event_3.jpeg";
 import Event1 from "../../../assets/images/event/IMG_6277.jpg"

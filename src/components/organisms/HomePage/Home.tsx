@@ -300,6 +300,24 @@ const Home = () => {
         </div>
       </div>
       {/*End of Activities Section*/}
+      {/*Video Section*/}
+      <section className="px-16 sm:px-4 py-12 mx-auto">
+        <div className='w-full px-[15px] minMd:px-[60px] minLg:px-[100px] flex flex-col items-center'>
+          <Fade bottom duration={1000} delay={300}>
+            <div className='w-full max-w-4xl aspect-video'>
+              <iframe 
+                className='w-full h-full rounded-lg shadow-lg'
+                src="https://www.youtube.com/embed/b7MQVD5LaF8" 
+                title="Bolowei Resort Video" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+              />
+            </div>
+          </Fade>
+        </div>
+      </section>
+      {/*End of Video Section*/}
       {/*Packages Section*/}
       <section className="px-16 sm:px-4  sm:py-5 flex flex-col items-center">
         <h2 className="text-3xl minMd:text-4xl font-bold text-center">Packages</h2>
